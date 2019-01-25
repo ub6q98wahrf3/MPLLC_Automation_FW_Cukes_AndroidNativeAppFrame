@@ -1,0 +1,418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 132368208303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.initConfig()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Setting Wifi",
+        "description": "",
+        "id": "apidemos:-setting-wifi;setting-wifi;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1940875118,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1292987129,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Preference Option",
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.user_clicks_on_preference_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4350124914,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on Preference Dependencies Option",
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.clicks_on_preference_dependencies_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11039828485,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to set the wifi of the device using the password pass1111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass1111",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefinition_01_APIDemos_SettingWifi.user_should_be_able_to_set_the_wifi_of_the_device_using_the_password(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@APIDemos_SettingWifi"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27943190670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.initConfig()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Setting Wifi",
+        "description": "",
+        "id": "apidemos:-setting-wifi;setting-wifi;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 981541979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 559894165,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Preference Option",
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.user_clicks_on_preference_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4682451093,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on Preference Dependencies Option",
+            "match": {
+              "location": "stepDefinition_01_APIDemos_SettingWifi.clicks_on_preference_dependencies_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10992777012,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to set the wifi of the device using the password pass2222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass2222",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefinition_01_APIDemos_SettingWifi.user_should_be_able_to_set_the_wifi_of_the_device_using_the_password(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@APIDemos_SettingWifi"
+          }
+        ]
+      }
+    ],
+    "name": "APIDemos: Setting Wifi",
+    "description": "",
+    "id": "apidemos:-setting-wifi",
+    "keyword": "Feature",
+    "uri": "APIDemos_01_SettingWifi.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26757840039,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_02_APIDemos_RetrivingDogsInfo.initConfig()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "APIDemos_RetrivingDogsInfo",
+        "description": "",
+        "id": "api-demos:-retriving-dogs-info;apidemos-retrivingdogsinfo",
+        "after": [
+          {
+            "result": {
+              "duration": 546906073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_02_APIDemos_RetrivingDogsInfo.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4262500057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Custom Adapter page",
+            "match": {
+              "location": "stepDefinition_02_APIDemos_RetrivingDogsInfo.user_navigates_to_custom_adapter_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8941611753,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to retrieve dogs information",
+            "match": {
+              "location": "stepDefinition_02_APIDemos_RetrivingDogsInfo.user_should_be_able_to_retrieve_dogs_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@APIDemos_RetrivingInfo"
+          }
+        ]
+      }
+    ],
+    "name": "API Demos: Retriving Dogs Info",
+    "description": "",
+    "id": "api-demos:-retriving-dogs-info",
+    "keyword": "Feature",
+    "uri": "APIDemos_02_RetrivingDogsInfo.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26795018676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_03_APIDemos_PlayingRedDots.initConfig()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "APIDemos_PlayingRedDots",
+        "description": "",
+        "id": "api-demos:-playing-red-dots;apidemos-playingreddots",
+        "after": [
+          {
+            "result": {
+              "duration": 251592264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_03_APIDemos_PlayingRedDots.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1073903486,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User taps on View Option",
+            "match": {
+              "location": "stepDefinition_03_APIDemos_PlayingRedDots.user_taps_on_view_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4089121848,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Taps on Drag And Drop Option",
+            "match": {
+              "location": "stepDefinition_03_APIDemos_PlayingRedDots.taps_on_drag_and_drop_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5668912840,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to perform drag and drop operation from the first dot over the third dot",
+            "match": {
+              "location": "stepDefinition_03_APIDemos_PlayingRedDots.user_should_be_able_to_perform_drag_and_drop_operation_from_the_first_dot_over_the_third_dot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@APIDemos_PlayingRedDots"
+          }
+        ]
+      }
+    ],
+    "name": "API Demos: Playing Red Dots",
+    "description": "",
+    "id": "api-demos:-playing-red-dots",
+    "keyword": "Feature",
+    "uri": "APIDemos_03_PlayingRedDots.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26536865055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_04_APIDemos_MakingPopUps.initConfig()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "APIDemos_MakingPopUps",
+        "description": "",
+        "id": "api-demos:-making-pop-ups;apidemos-makingpopups",
+        "after": [
+          {
+            "result": {
+              "duration": 779370999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_04_APIDemos_MakingPopUps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1112552737,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User taps on Views option",
+            "match": {
+              "location": "stepDefinition_04_APIDemos_MakingPopUps.user_taps_on_views_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11131706062,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "taps on Pop Up option",
+            "match": {
+              "location": "stepDefinition_04_APIDemos_MakingPopUps.taps_on_pop_up_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1595367590,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to make a pop up",
+            "match": {
+              "location": "stepDefinition_04_APIDemos_MakingPopUps.user_should_be_able_to_make_a_pop_up()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@APIDemos_MakingPopUps"
+          }
+        ]
+      }
+    ],
+    "name": "API Demos: Making Pop Ups",
+    "description": "",
+    "id": "api-demos:-making-pop-ups",
+    "keyword": "Feature",
+    "uri": "APIDemos_04_MakingPopUps.feature"
+  }
+]
